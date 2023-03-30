@@ -1,7 +1,7 @@
 library kua_dependency_first;
 
 /// A Calculator.
-class Calculator {
+class FirstDependency {
   /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+  String getDependencyName() => "first";
 }
